@@ -9,8 +9,8 @@ resource "null_resource" "sshnull" {
   connection {
     type = "ssh"
     user = "ec2-user"
-
-    private_key = file("C:/Users/Omkar/Downloads/my_first_key.pem")
+#need to give path where your private key downloaded
+    private_key = file("path_private_key")
     host        = aws_instance.os1.public_ip
   }
 
