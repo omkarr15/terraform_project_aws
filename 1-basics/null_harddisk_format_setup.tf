@@ -8,7 +8,7 @@ resource "null_resource" "volumeformatnull" {
     type = "ssh"
     user = "ec2-user"
 
-    private_key = file("C:/Users/Omkar/Downloads/my_first_key.pem")
+    private_key = file("<privatekey_path>")
     host        = aws_instance.os1.public_ip
   }
 
