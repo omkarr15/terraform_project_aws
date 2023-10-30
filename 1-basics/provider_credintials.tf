@@ -3,12 +3,11 @@
 
 provider "aws" {
   region  = var.AWS_REGION
-  access_key = "AKIAQCM4ILMOWCIYHKF5"
-  secret_key = "9XmFYQkTR5SKjSQCAyiemq9grcwh/yDjoDvDvucX"
+  profile = "terraformprofile"         #give your aes configuer profile name here
 
 
 
-  #profile = "terraformprofile"
-  #access_key = "AKIAQCM4ILMOV6EFXPV2"
-  #secret_key = "xT3AKOriIZt3ryhLMMa3V2sU2QVpz1iukfNk+JLZ"
+#or by this method give ur credentials
+  #access_key = "AKIAQCM4ILMOV6EFX"
+  #secret_key = "xT3AKOriIZt3ryhLMMa3V2sU2z1kfNZ"
 }
