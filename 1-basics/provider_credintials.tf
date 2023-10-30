@@ -8,6 +8,6 @@ provider "aws" {
 
 
 #or by this method give ur credentials
-  #access_key = "AKIAQCM4ILMOV6EFX"
-  #secret_key = "xT3AKOriIZt3ryhLMMa3V2sU2z1kfNZ"
+  #access_key = "Agfbfdxvnjvkjklhhbhfd"
+  #secret_key = "xT3AKOriIZjhdjfbkdvbkjbvkjbklvbkbvZ"
 }
