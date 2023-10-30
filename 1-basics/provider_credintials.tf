@@ -8,6 +8,7 @@ provider "aws" {
 
 
 #or by this method give ur credentials
-  #access_key = "Agfbfdxvnjvkjklhhbhfd"
-  #secret_key = "xT3AKOriIZjhdjfbkdvbkjbvkjbklvbkbvZ"
+#create IAM user and crendential and write here
+  #access_key = ""
+  #secret_key = ""
 }
