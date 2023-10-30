@@ -3,7 +3,7 @@ resource "aws_instance" "os1" {
 
   ami                    = var.amiId
   key_name               = "my_first_key"
-  vpc_security_group_ids = ["sg-098cf9604a3c779ce"]
+  vpc_security_group_ids = ["sg-098cf9604a3c7ffe"] #here give Security Group id 
 
   #instance_type = var.instance_type["dev"]
 
